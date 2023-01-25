@@ -1,0 +1,383 @@
+@media (min-width: 320px) and (max-width: 480px){
+    .main{
+        width: 90%;
+    }
+    .btn {
+        background-color: rgb(167, 170, 8);
+        border-radius: 20px;
+        margin-left: 25%;
+        font-size: 9px;
+        width: 30%;
+    }
+    .selection {
+        background-color: red;
+        width: 100%;
+        display: flex;
+        color: white;
+        flex-direction: column;
+    }
+  
+    .slide-left {
+        width: 100%;
+    }
+    .title-rigth {
+        font-size: 25px;
+        font-size: 13px;
+    }
+    .title-top {
+        font-size: 12px;
+        text-align: center;
+    }
+    .btn1 {
+        background-color: rgb(248, 252, 7);
+        border-radius: 20px;
+        width: 50%;
+        text-align: center;
+        color: black;
+        margin-left: 20%;
+    }
+    .overlay a {
+        padding: 5px;
+        text-decoration: none;
+        font-size: 17px;
+        color: #faf5f5;
+        display: block;
+        transition: 0.3s;
+    }
+    .slide-rigth {
+        display:block ;
+    }
+    .dis {
+        font-size: 14px;
+    }
+    .title {
+        font-size: 13px;
+        color: crimson;
+    }
+    .A {
+        width: 100%;
+    }
+    b, strong {
+        font-weight: bolder;
+        font-size: 13px;
+    }
+    p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        font-size: 12px;
+    }
+    .B {
+        width: 100%;
+    }
+    .poin {
+        padding: 0 ;
+        width: 100%;
+        font-size: 12px;
+    }
+    .slide-rigth {
+        width: 100%;
+        padding: 0;
+    }
+    .title-top {
+        font-size: 16px;
+        padding: 0 20px;
+    }
+    .title-rigth {
+        font-size: 25px;
+        text-align: center;
+        padding: 0px 20px;
+    }
+    .btn1 {
+        padding: 5px;
+        font-size: 12px;
+    }
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .left {
+        width: 100%;
+    }
+    .poin {
+        padding: 15px;
+        width: 100%;
+        font-size: 12px;
+    }
+    .rigth {
+        width: 100%;
+    }
+    .btn {
+        background-color: rgb(167, 170, 8);
+        border-radius: 20px;
+        margin-left: 30%;
+        font-size: 9px;
+        width: 40%;
+    }
+    .navbar {
+        width: 100%;
+        margin: auto;
+        top: 0;
+        position: sticky;
+    }
+    .col-3 {
+        /* flex: 0 0 auto; */
+        width: 45%;
+    }
+    .col-4 {
+        flex: 0 0 auto;
+        width: 40%;
+    }
+    .logo img {
+        margin-left: 0%;
+    }
+    .header{
+        display: none;
+    }
+    .sp{
+        color: black;
+        display: block;
+    }
+    .icon {
+        width: 40%;
+        display: flex;
+        margin-left: 30px;
+        transition: 1s;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px){
+    .navbar {
+        width: 100%;
+        margin: auto;
+        top: 0;
+        position: sticky;
+    }
+    .overlay a {
+        padding: 5px;
+        text-decoration: none;
+        font-size: 20px;
+        color: #faf5f5;
+        display: block;
+    }
+    .main {
+        width: 90%;
+        margin: auto;
+    }
+    .selection {
+        background-color: red;
+        width: 100%;
+        display: flex;
+        color: white;
+        flex-direction: column;
+    }
+    .slide-left {
+        width: 100%;
+    }
+    .slide-rigth {
+        width: 100%;
+    }
+    .title-rigth {
+        font-size: 20px;
+        text-align: center;
+        padding: 20px 10px;
+    }
+    .title-top {
+        font-size: 18px;
+        padding: 0 10px;
+    }
+    .btn1 {
+        background-color: rgb(248, 252, 7);
+        border-radius: 20px;
+        width: 40%;
+        padding: 10px;
+        text-align: center;
+        color: black;
+        margin-left: 30%;
+    }
+    .left {
+        width: 100%;
+    }
+    .dis {
+        font-size: 19px;
+    }
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .title {
+        font-size: 20px;
+        color: crimson;
+    }
+    .poin {
+        padding: 0 20px;
+        font-size: 18px;
+    }
+    .rigth {
+        width: 100%;
+    }
+    .text-center {
+        text-align: center!important;
+        font-size: 20px;
+    }
+    .btn {
+        background-color: rgb(167, 170, 8);
+        border-radius: 20px;
+        margin-left: 35%;
+    }
+    .logo img {
+        margin-left: 0%;
+    }
+    .col-3 {
+        flex: 0 0 auto;
+        width: 45%;
+    }
+    .header {
+        display: none;
+    }
+    .sp{
+        display: block;
+        color: rgb(245, 241, 241);
+    }
+    .icon {
+        width: 40%;
+        display: flex;
+        margin-left: 40px;
+        transition: 1s;
+        flex-direction: row;
+    }
+    .logo1{
+        display: none;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    .header {
+        display: none;
+    }
+    .navbar {
+        width: 100%;
+        margin: auto;
+        top: 0;
+        position: sticky;
+    }
+    .col-3 {
+        width: 45%;
+    }
+    button:focus:not(:focus-visible) {
+        outline: 0;
+        display: none;
+    }
+    element.style {
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .sp {
+        display: block;
+        color: rgb(252, 251, 248);
+        font-size: 0px;
+        width: 5%;
+    }
+    .col-4 {
+        width: 40%;
+    }
+    .main {
+        width: 90%;
+        margin: auto;
+    }
+    .selection {
+        background-color: red;
+        width: 100%;
+        display: flex;
+        color: white;
+        flex-direction: column;
+    }
+    .slide-left {
+        width: 100%;
+    }
+    .slide-rigth {
+        width: 100%;
+    }
+    b, strong {
+        font-weight: bolder;
+        font-size: 25px;
+    }
+    .title-top {
+        font-size: 16px;
+        padding: 0 20px;
+        font-size: 25px;
+    }
+    .log1{
+        display: none;
+    }
+    .btn1 {
+        background-color: rgb(248, 252, 7);
+        border-radius: 20px;
+        width: 40%;
+        padding: 10px;
+        text-align: center;
+        color: black;
+        margin-left: 30%;
+    }
+    .left {
+        width: 100%;
+    }
+    .dis {
+        font-size: 25px;
+    }
+    .AB {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .A {
+        width: 100%;
+        font-size: 25px;
+    }
+    .B {
+        width: 100%;
+        font-size: 25px;
+    }
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .poin {
+        padding: 0 30px;
+        font-size: 25px;
+    }
+    .rigth {
+        width: 90%;
+    }
+    .text-center {
+        text-align: center!important;
+        font-size: 30px;
+    }
+    .btn {
+        background-color: rgb(167, 170, 8);
+        border-radius: 20px;
+        margin-left: 35%;
+    }
+    .icon {
+        width: 40%;
+        display: flex;
+        margin-left: 50px;
+        transition: 1s;
+    }
+    .btn {
+        font-size: 25px;
+        background-color: rgb(167, 170, 8);
+        border-radius: 20px;
+        padding: 20px;
+        margin-left: 35%;
+    }
+    .img1 {
+        width: 50%;
+    }
+    .img1 img {
+        width: 30%;
+    }
+    .logo1{
+        display: none;
+    }
+}
